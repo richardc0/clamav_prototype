@@ -1,0 +1,10 @@
+command: ./run.sh
+instances: 1
+memory: 2G
+health-check-type: none
+
+applications:
+  - name: notify-clamav
+
+routes:
+  - route: staging-notify-clamav.cloudapps.digital
